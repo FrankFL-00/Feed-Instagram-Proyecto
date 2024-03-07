@@ -1,0 +1,46 @@
+body{
+    background: rgb(219, 219, 219);
+    margin: 0;
+    font-family: "Inter", sans-serif;
+}
+header{
+    background: white;
+}
+header h1{
+    width: 600px;
+    margin:auto;
+    padding: 20px;
+}
+.Contenedor{
+    margin: auto;
+    width: 600px;
+}
+
+
+div[class^="Post"]{
+    background: white;
+    box-shadow:0 0 5px rgb(179, 179, 179);
+    margin-top: 50px;
+}
+img{
+    width: 100%;
+}
+p{
+    margin: 0;
+    padding: 20px;
+}
+div[class^="Titulo"]{
+    display: flex;
+    align-items: center;
+}
+h2{
+    font-size: 22px;
+    flex-grow: 9;
+    padding-left: 20px;
+}
+span{
+    text-align: right;
+    padding-right: 20px;
+    color: rgb(206, 206, 206);
+    flex-grow: 1;
+}
